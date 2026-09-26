@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mohd Kaif | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h2 class="logo">Kaif.</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-text">HELLO, I'M</p>
+
+            <h1>Mohd Kaif</h1>
+
+            <h2>Web Developer & Designer</h2>
+
+            <p>
+                I create modern, responsive and user-friendly websites
+                with clean design and creative ideas.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="btn">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+
+        </div>
+
+
+        
+        <div class="hero-image">
+            <img src="images/profile.jpg" alt="Mohd Kaif Profile Photo">
+        </div>
+
+    </section>
+<section id="about" class="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I am Mohd Kaif, a passionate web developer and designer.
+        I enjoy creating modern, responsive and user-friendly websites.
+        I am interested in web development, programming and learning
+        new technologies.
+    </p>
+
+</section>
+<section id="skills" class="skills">
+
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Creating the structure of websites.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Designing and styling modern websites.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Adding functionality and interaction.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Python</h3>
+            <p>Programming and backend development.</p>
+        </div>
+
+    </div>
+
+</section>
+<section id="projects" class="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                A responsive personal portfolio website created using
+                HTML, CSS and JavaScript.
+            </p>
+            <a href="#" class="project-btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Lost & Found Website</h3>
+            <p>
+                A web application where users can report lost items,
+                post found items and submit claim requests.
+            </p>
+            <a href="https://lostandfound-wl3d.onrender.com/" 
+   class="project-btn" 
+   target="_blank">
+   View Project
+</a>
+        </div>
+
+</section>
+<section id="contact" class="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Have a project or question? Feel free to contact me.
+    </p>
+
+    <form id="contact-form">
+
+        <input 
+            type="text" 
+            id="name" 
+            name="name"
+            placeholder="Your Name" 
+            required
+        >
+
+        <input 
+            type="email" 
+            id="email" 
+            name="email"
+            placeholder="Your Email" 
+            required
+        >
+
+        <textarea 
+            id="message" 
+            name="message"
+            placeholder="Your Message" 
+            rows="6" 
+            required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
